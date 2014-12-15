@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222"
+    >
+    "
+    <com.holiy.picture_handle.widget.utils.PreviewPicsViewPager
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/preview_pics_viewpager"/>
+    <include layout="@layout/pictures_collection_layout_top"
+        />
+
+</RelativeLayout>

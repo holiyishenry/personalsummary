@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#333" >
+
+    <LinearLayout
+        android:id="@+id/tack_pic_layout"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:gravity="center"
+         >
+        <ImageView
+            android:id="@+id/carmera_icon_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/camera_icon" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拍摄照片"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <RelativeLayout
+          android:visibility="gone"
+        android:id="@+id/pick_pic_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/folder_first_pic_item_image"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/picture_no"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/folder_first_pic_item_select"
+            android:layout_width="@dimen/min_view_size"
+            android:layout_height="@dimen/min_view_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:clickable="false"
+            android:src="@drawable/pic_checked_unselected" />
+    </RelativeLayout>
+
+</RelativeLayout>
