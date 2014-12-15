@@ -25,6 +25,7 @@ public class MainActivity extends ActionBarActivity {
              Toast.makeText(MainActivity.this,"好",Toast.LENGTH_SHORT).show();
              Toast.makeText(MainActivity.this,"奇",Toast.LENGTH_SHORT).show();
              Toast.makeText(MainActivity.this,"怪",Toast.LENGTH_SHORT).show();
+             Toast.makeText(MainActivity.this,"！",Toast.LENGTH_SHORT).show();
             }
         });
 
